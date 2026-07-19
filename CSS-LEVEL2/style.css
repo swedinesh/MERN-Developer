@@ -1,0 +1,90 @@
+.linear{
+  border: 2px solid gray;
+  height: 300px;
+  width: 300px;
+  background-image: linear-gradient(to bottom right,red, blue);
+  background-image: linear-gradient(to bottom right, rgba(255,0,0,0), rgba(0,0,255));
+  background-image: linear-gradient(orange, white, green);
+}
+
+.radial{
+    margin: 20px;
+    border: 2px solid orange;
+    height: 400px;
+    width: 400px;
+    background-image: radial-gradient(circle, red, yellow, green);
+
+    background-image: radial-gradient(yellow 30%, orange 20%, red 50%);
+}
+
+.conic{
+    margin: 20px;
+    border-radius: 5opx;
+    height: 400px;
+    width: 400px;
+    background-image: conic-gradient( red, green, blue, yellow, aqua, pink, grey, purple);
+    background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+     background-image: conic-gradient(from 90deg, red, yellow, green);
+
+
+}
+
+#grad1 {
+  height: 200px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: repeating-conic-gradient(red 10%, yellow 20%);
+  border-radius: 50%;
+}
+
+#dinchak{
+    color: green;
+    text-shadow: 20px 30px 3px black;
+}
+
+#boxy{
+    margin: 100px;
+    border: 1px solid orangered;
+    height: 200px;
+    width: 200px;
+    box-shadow: -30px -30px 20px rgb(128, 0, 0), 30px 30px 30px yellowgreen;
+
+    background-color: aqua;
+}
+
+#lol{
+    border: 1px solid black;
+    height: 100px;
+    min-height: 100px;
+    overflow-x: scroll;
+    -ms-transform-origin-x: 10px;
+
+}
+
+.wrapper{
+    height: 1000px;
+    width: 100vw;
+    background-color: yellow;
+}
+#dh{
+    height: 100px;
+    width: 300px;
+
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#translated{
+    transform: perspective(15px) translateZ(-10px);
+}
+
+#scalled{
+    margin-left: 800px;
+    transform:rotate(30deg);
+    transform: perspective(300px) scaleZ(6) rotateX(45deg) rotateY(30deg);
+}
