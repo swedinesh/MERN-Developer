@@ -1,0 +1,12 @@
+.box{
+    background-color: aqua;
+    /* transform: translate(100px, 100px); */
+    /* transform: rotate(180deg); */
+    margin: 200px;
+    /* transform: scale(1,6); */
+
+    /* Equivalent to: translate(50px, 30px) */
+transform: matrix(1, 0, 0, 1, 50, 30);
+
+}
+
