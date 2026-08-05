@@ -1,0 +1,151 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#fff;
+}
+
+.container{
+    max-width:1200px;
+    margin:20px auto;
+    padding:20px;
+}
+
+.box{
+    margin-top: 30px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:20px;
+}
+
+.card{
+    border:6px solid #e5e7eb;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.card a{
+    margin-top:auto;
+    color:#2563eb;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.category{
+    font-weight:bold;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.world{
+    color:#2563eb;
+}
+
+.design{
+    color:#16a34a;
+}
+
+.nov{
+    color:#6b7280;
+}
+
+h1,h2{
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align:center;
+    text-decoration:underline;
+} */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px;
+    display: grid;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "hd hd" "bd bd";
+}
+
+#header {
+    grid-area: hd;
+}
+
+#body {
+    grid-area: bd;
+}
+
+h1{
+   text-align: center;
+font-family:'Times New Roman', Times, serif ;
+text-decoration: underline;
+}
+
+h2{
+   font-family:'Times New Roman', Times, serif ; 
+}
+
+.box {
+    display: grid;
+    height: 100%;
+    width: 100%;
+
+    grid-gap: 10px;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+    padding: 20px;
+
+}
+
+.card{
+    border: 6px solid #e5e7eb;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card a{
+    /* neeche shift kar deta hai */
+    margin-top: auto;
+    color: blue;
+}
+
+.cw{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color:blue;
+}
+
+.cd{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+
+.nov{
+    margin-top: 5px;
+     color: #6b7280;
+     margin-bottom: 10px;
+} 

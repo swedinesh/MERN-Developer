@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    width: 400px;
+    height: 700px;
+    background-color: white;
+    /* margin: 30px;
+    padding: 20px; */
+    border-radius: 20px;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.xxy{
+    display: flex;
+    height: 40%;
+    flex-direction: column;
+    margin: 10px;
+
+}
+.xxy img{
+    border-radius: 20px;
+}
+
+.ss{
+ margin-top: 30px;
+ margin-left: 30px;
+ display: flex;
+ gap: 30px;
+}
+.ss span{
+ padding: 10px;
+ border-radius: 15px;
+ background-color: white;
+ border: 0.2px solid black;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.head{
+    margin: 20px;
+}
+
+.para{
+    margin: 10px;
+    font-size: 20px;
+    font-weight:lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+/* .but button{
+    border-radius: 30px;
+    padding: 15px;
+    color: blue;
+    font-weight: bold;
+    background-color: rgb(57, 65, 160);
+} */
+
+.btn-grad {
+  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+}
+
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 20px;
+  display: block;
+  outline: none;
+  border: none;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
