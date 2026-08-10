@@ -14,16 +14,16 @@ const myArr2 = new Array(1, 2, 3, 4, 5)
 
 myArr.push(10)
 myArr.push(20)
-console.log(myArr)
+// console.log(myArr)
 myArr.pop()
-console.log(myArr)
+// console.log(myArr)
 
 // unshift - bhut bada array hoga saare element shift karne honge
 myArr.unshift(-10)
-console.log(myArr)
+// console.log(myArr)
 // remove aage se
 myArr.shift()
-console.log(myArr)
+// console.log(myArr)
 
 // myArr.shift()
 // console.log(myArr)

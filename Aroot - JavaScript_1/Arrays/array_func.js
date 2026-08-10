@@ -9,19 +9,20 @@ const dc_heros = ['superman', 'flash', 'batman']
 const allHeros = marvel_heros.concat(dc_heros)
 //  console.log(allHeros)
 
- // arrays spreadd karna hai
+ // arrays spread karna hai
  const allNewHeros = [...marvel_heros, ...dc_heros]
-console.log(allNewHeros)
+// console.log(allNewHeros)
 
 //bikra array khi 2d khin 3d
 
 const another_array = [1,2,3, [4,5,6], 7, [6,7, [4,5]]]
 
 const real_another_array = another_array.flat(Infinity)
-console.log(real_another_array)
+// console.log(real_another_array)
 
-console.log(Array.isArray("Dinesh"))
-console.log(Array.from("Dinesh"))
+console.log(Array.isArray(new Array("a", "b", "c")))
+console.log(Array.isArray(Array.prototype))
+// console.log(Array.from("Dinesh"))
 
 // empty arrya -- saari keys ya values se aaray banaiye
 console.log(Array.from({name: "dinesh"})) // interesting

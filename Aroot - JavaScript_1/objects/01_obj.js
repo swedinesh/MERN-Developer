@@ -21,7 +21,7 @@ console.log(jsUser.name) // GOOD
 console.log(jsUser["gmail"]) // BEST
 // key full Name like array a[0] same obj["email"]
 console.log(jsUser["fullname"])
-// sting nhi ki tarah nii dena
+// string nhi ki tarah nii dena
 console.log(jsUser[mySym])
 
 jsUser.gmail = "dinesh@chatgpt.com"
