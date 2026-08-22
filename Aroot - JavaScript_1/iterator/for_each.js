@@ -47,3 +47,4 @@ const myCoding = [
 myCoding.forEach( (items) => {
     console.log(items.languageName)
 })
+
