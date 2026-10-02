@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>BEENA KE DOHE</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Poppins:wght@400;600;800&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .hindi {
+      font-family: 'Kalam', cursive;
+    }
+
+    .glow {
+      box-shadow:
+        0 0 20px rgba(244, 63, 94, 0.35),
+        0 0 60px rgba(168, 85, 247, 0.20);
+    }
+  </style>
+</head>
+
+<body class="min-h-screen bg-gradient-to-br from-slate-950 via-purple-950 to-rose-950 text-white">
+
+  <!-- Background -->
+  <div class="fixed inset-0 -z-10 overflow-hidden">
+    <div class="absolute top-10 left-10 h-72 w-72 rounded-full bg-fuchsia-600/20 blur-3xl"></div>
+    <div class="absolute bottom-10 right-10 h-80 w-80 rounded-full bg-orange-500/20 blur-3xl"></div>
+    <div class="absolute top-1/2 left-1/2 h-64 w-64 -translate-x-1/2 rounded-full bg-purple-600/20 blur-3xl"></div>
+  </div>
+
+  <!-- Main -->
+  <main class="min-h-screen flex items-center justify-center px-5 py-10">
+
+    <section class="w-full max-w-5xl">
+
+      <!-- Heading -->
+      <div class="text-center mb-10">
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-widest
+                   bg-gradient-to-r from-orange-400 via-pink-500 to-purple-500
+                   bg-clip-text text-transparent">
+          BEENA KE DOHE
+        </h1>
+      </div>
+
+
+      <!-- Characters -->
+      <div class="grid grid-cols-2 gap-4 md:gap-8 mb-10">
+
+        <!-- Left Image -->
+        <div class="relative h-72 md:h-[430px] overflow-hidden rounded-3xl
+                    border border-orange-400/40 glow">
+          <img
+            src="mirzapur.png"
+            class="absolute h-full w-[200%] max-w-none object-cover object-left"
+            alt=""
+          />
+
+          <div class="absolute inset-0 bg-gradient-to-t
+                      from-black/70 via-transparent to-transparent"></div>
+        </div>
+
+
+        <!-- Right Image -->
+        <div class="relative h-72 md:h-[430px] overflow-hidden rounded-3xl
+                    border border-pink-400/40 glow">
+          <img
+            src="mirzapur.png"
+            class="absolute h-full w-[200%] max-w-none object-cover object-right"
+            alt=""
+          />
+
+          <div class="absolute inset-0 bg-gradient-to-t
+                      from-black/70 via-transparent to-transparent"></div>
+        </div>
+
+      </div>
+
+
+      <!-- Dialogue -->
+      <div class="relative overflow-hidden rounded-3xl
+                  border border-white/20
+                  bg-white/10 backdrop-blur-xl
+                  px-6 py-10 md:px-16 md:py-14
+                  text-center shadow-2xl">
+
+        <div class="absolute -top-20 -left-20 h-40 w-40
+                    rounded-full bg-orange-500/20 blur-3xl"></div>
+
+        <div class="absolute -bottom-20 -right-20 h-40 w-40
+                    rounded-full bg-pink-500/20 blur-3xl"></div>
+
+        <p class="hindi relative text-3xl md:text-5xl leading-relaxed
+                  font-bold
+                  bg-gradient-to-r from-orange-300 via-pink-300 to-purple-300
+                  bg-clip-text text-transparent">
+          "Love ही तो है,<br />
+          Lifetime थोड़ी ही रहता है।"
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>

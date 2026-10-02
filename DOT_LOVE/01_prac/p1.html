@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 1</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <p>Pehla</p>
+    <p class="duja" >Dusra</p>
+    <p class = "duja" >Teesra</p>
+
+    <script>
+        let myPara = document.getElementById('demo');
+        myPara.innerHTML = 'Hello, World!';
+
+        // index konse number ka tag chahiye 
+        let tag  = document.getElementsByTagName('p')[0];
+        tag.innerHTML = 'Gandu Nam hai mera';
+
+        let byClass = document.getElementsByClassName('duja')[1];
+        byClass.innerHTML  = 'Pyaar Hi to hai LifeTime thodi rhega';
+
+        let dujaSelect = document.querySelector('.duja');
+        dujaSelect.style.backgroundColor = 'yellow';
+        dujaSelect.style.color = 'red';
+
+        let nodeList = document.querySelectorAll('.duja');
+        nodeList[0].innerHTML = 'Naya Dusra';
+        nodeList[1].innerHTML = 'Naya Teesra';
+        
+    </script>
+</body>
+
+</html>
